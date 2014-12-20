@@ -18,6 +18,7 @@ The run_analysis.R script processes the provided UCI HAR Dataset and creates a t
 - the R packages data.table and reshape2 have been installed
 
 **Running the script:**
+
 The script does not require any user interaction beyond starting it. The script will provide messages as to the status of reading and processing the UCI HAR data.  
 
 The outcome of the script is that a file named tidy.txt will be created in the working directory. The file contains a tidy data set of mean of each mean and stardard deviation value in the test and train data sets.  Details of the all the transformations made by run_analysis.R script can be found in CodeBook.md
