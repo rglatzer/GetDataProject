@@ -32,7 +32,7 @@ For readability in this Code Book, the information provided in two above files a
 ##DATA USED
 ###The following files were used for this projects.
 
-**Where T=test or train**
+**Where T=test or train  (ie: x_T can be x_test or x_train**
 
 - subject_T.txt = subject identifier
 - x_T.txt = summary statistics of each feature recorded from the smartphone.  Raw data, which was not used for this project, can be found in the ..\T\Inertial Signals\ directory
@@ -44,9 +44,9 @@ For readability in this Code Book, the information provided in two above files a
 
 
 ##TRANSFORMATIONS
-- Column labels were added to Subject_T, x_T, and Y_t data
-- in Y_t a column of the activity label was added
-- in X_t data was filtered to just include mean and standard deviation values ()
+- Column labels were added to Subject_T, x_T, and y_T data
+- in y_T a column of the activity label was added
+- in x_T data was filtered to just include mean and standard deviation values ()
 - subject_T, y_T, and x_T were cbinded into a single data set for test and train
 - The test and train data sets were Rbind into a single data set called Data
 - The Data data set was melted and then dcast into a tidy data set that provides the mean of each mean and stardard deviation value
