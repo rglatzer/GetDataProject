@@ -19,6 +19,8 @@ The run_analysis.R script processes the provided UCI HAR Dataset and creates a t
 
 The script does not require any user interaction beyond starting it. The script will provide messages as to the status of reading and processing the UCI HAR data.  
 
+Details of the transformations made by run_analysis.R script can be found in CodeBook.md
+
 The outcome of the script is that the tidy.txt file will be created in the working directory.
 
 
