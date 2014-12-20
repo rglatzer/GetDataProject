@@ -7,7 +7,6 @@ This repo contains elements required for the Getting and Cleaning Data course pr
 - This readme file
 - An R script (run_analysis.R)
 - Codebook.md = a description of the data provided, used, and processed for this project
-- Tidy.txt = a tidy data set that is the output of the script.
 
 ##About run_analysis.R script
 
